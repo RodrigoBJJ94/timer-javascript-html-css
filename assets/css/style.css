@@ -35,3 +35,7 @@ h1 {
 p {
     text-align: center;
 }
+.name {
+    text-align: center;
+    color: white;
+}
