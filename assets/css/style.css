@@ -39,3 +39,14 @@ p {
     text-align: center;
     color: white;
 }
+.start {
+    width: 80px;
+}
+.pause {
+    width: 80px;
+    margin-left: 20px;
+}
+.end {
+    width: 80px;
+    margin-left: 20px;
+}
