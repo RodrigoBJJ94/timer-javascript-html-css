@@ -14,23 +14,29 @@ body{
     font-family: 'Open sans', sans-serif;
     font-size: 1.3em;
     line-height: 1.5em;
+    background-image: url(/assets/img/undraw_time_management_30iu.svg);
+    background-position: top center;
+    background-size: unset;
+    background-repeat: no-repeat;
 }
 .container {
-    max-width: 640px;
-    margin: 50px auto;
-    background: white;
+    max-width: 260px;
+    margin: 260px auto;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 300px 300px;
 }
 .clock {
     font-size: 3em;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: -13px;
 }
 .paused {
     color: red;
 }
 h1 {
     text-align: center;
-    color: rgb(238, 175, 81);
+    color: rgb(0, 0, 0);
 }
 p {
     text-align: center;
@@ -39,25 +45,28 @@ p {
     text-align: center;
     color: white;
     font-style: italic;
-    margin-top: 540px;
+    margin-top: 400px;
 }
 .start {
-    width: 80px;
+    width: 60px;
 }
 .pause {
-    width: 80px;
-    margin-left: 20px;
+    width: 60px;
+    margin-left: -3px;
 }
 .end {
-    width: 80px;
-    margin-left: 20px;
+    width: 60px;
+    margin-left: -3px;
 }
 @media (max-width: 800px) {
-    .container {
-        margin-left: 15px;
-        margin-right: 15px;
-    }
     .name {
-        margin-top: 320px;
+        margin-top: 280px;
+    }
+    body {
+        background-size: 120%;
+        background-position: top center;
+    }
+    .container {
+        margin-top: 92px;
     }
 }
