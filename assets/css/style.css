@@ -60,13 +60,13 @@ p {
 }
 @media (max-width: 800px) {
     .name {
-        margin-top: 280px;
+        margin-top: 300px;
     }
     body {
-        background-size: 130%;
+        background-size: 140%;
         background-position: top center;
     }
     .container {
-        margin-top: 82px;
+        margin-top: 70px;
     }
 }
