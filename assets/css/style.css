@@ -55,16 +55,17 @@ p {
 
 .start {
     width: 60px;
+    margin-left: -15px;
 }
 
 .pause {
     width: 60px;
-    margin-left: -3px;
+    margin-left: 15px;
 }
 
 .end {
     width: 60px;
-    margin-left: -3px;
+    margin-left: 15px;
 }
 
 @media (max-width: 800px) {
